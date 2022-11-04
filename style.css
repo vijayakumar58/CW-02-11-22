@@ -11,8 +11,14 @@ span{
 }
 .flex-container {
     display : flex;
-      /* justify-content: end; */
-      /* align-items: flex-end;        */
+     align-items: center;
+     /* align-items: stretch;
+     flex-wrap: wrap; */
+     /* align-items: center; */
+     /* justify-content: flex-start; */
+      /* justify-content: center; */
+      /* justify-content: space-between; */
+      /* justify-content: flex-end; */
      background-color: dodgerblue;
 }
 .flex-container > div {
@@ -21,4 +27,4 @@ span{
     background-color: #f1f1f1;
     font-size: 30px;
  }
-        
+ 
